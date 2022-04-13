@@ -1,0 +1,7 @@
+
+ABCD Parent Child Behavior Checklist Raw Scores Aseba (CBCL)
+https://nda.nih.gov/data_structure.html?short_name=abcd_cbcl01
+
+
+ABCD Parent Child Behavior Checklist Scores Aseba (CBCL)
+https://nda.nih.gov/data_structure.html?short_name=abcd_cbcls01
