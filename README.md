@@ -11,6 +11,9 @@ By extension, if one can represent the ABCD data in their ReproPond, one can the
 ABCD CBCL raw data to NIDM
 
 ## The ReproSchema Way
+ReproSchema (https://github.com/ReproNim/reproschema) already knows about many instruments, including the ABCD version of the CBCL, https://github.com/ReproNim/reproschema-library/tree/master/activities/abcd_cbcl01.
+
+Each 'item' from the questionaire already has makrup. For example, the markup for qustion 1 can be seen here: https://github.com/ReproNim/reproschema-library/blob/master/activities/abcd_cbcl01/items/cbcl_q01_p
 
 ## The PyNIDM Way
 
