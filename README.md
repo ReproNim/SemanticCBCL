@@ -13,3 +13,9 @@ ABCD CBCL raw data to NIDM
 ## The ReproSchema Way
 
 ## The PyNIDM Way
+
+> usage: csv2nidm [-h] -csv CSV_FILE [-json_map JSON_MAP | -redcap REDCAP]
+>
+>                [-nidm NIDM_FILE] [-no_concepts] [-log LOGFILE]
+>                
+>                [-dataset_id DATASET_IDENTIFIER] -out OUTPUT_FILE
