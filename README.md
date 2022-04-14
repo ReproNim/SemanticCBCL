@@ -7,7 +7,7 @@ Given the data dictionary and the data for the ABCD CBCL raw data (from NDA, wit
 ## Bigger Picture
 By extension, if one can represent the ABCD data in their ReproPond, one can then add data from other CBCL sources (i.e. HCP-Development) to integrate and query across disperate data sources. Similarly, if one can add a second data type (i.e. FreeSurfer volumetric data from ABCD and HCP-Development) one has a very rish example set of queries and integrations they could do across this large ReproPond. And finally, if there is marching public open data in a ReproLake, performing integrated data queries and analysis across the local (Pond) and pubic (Lake) data sources should be 'easily' facilitated.
 
-# First things first
+# First Things First
 ABCD CBCL raw data to NIDM
 
 ## The ReproSchema Way
