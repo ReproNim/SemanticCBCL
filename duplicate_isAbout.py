@@ -11,6 +11,7 @@ filepath =os.path.join(ROOT_DIR, 'SEMANTICCBCL', 'fake_Data', 'johanna.txt')
 my_file = open(filepath, "r")
 content_list = my_file. readlines()
 
+#
 src = os.path.join(ROOT_DIR, 'SEMANTICCBCL', 'isAbout.json')
 print(src)
 for item in content_list:
