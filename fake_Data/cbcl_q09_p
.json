@@ -1,0 +1,11 @@
+[
+  {
+      "@id": "cbcl_q09_p",
+      "isAbout": [
+              {
+                  "@id": "http://uri.interlex.org/ilx_0107875",
+                  "label": "Obsessive Compulsive Disprder, OCD"
+              }
+          ]
+  }
+]
