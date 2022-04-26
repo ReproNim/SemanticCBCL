@@ -1,0 +1,98 @@
+# Template
+[
+  {
+      "@id": "cbcl_q14_p",
+      "isAbout": [
+              {
+                  "@id": "http://uri.interlex.org/base/ilx_0377827",
+                  "label": "cbcl_internal (Child Behavior Checklist (CBCL) 1-5)"
+              }
+          ]
+  }
+]
+
+# DNKs Assignments
+[
+  {
+      "@id": "x",
+      "isAbout": [
+              {
+                  "@id": "http://uri.interlex.org/base/ilx_0377827",
+              }
+          ]
+  },
+  {
+     "@id": "abcd_cbcl01_id",
+     "isAbout": [
+              {
+                  "@id": " ",
+              }
+       ]
+  },
+  {
+      "@id": "interview_age",
+      "isAbout": [
+              {
+                  "@id": " ",
+              }
+        ]
+  },
+  {
+      "@id": "cbcl_q03_p", 
+      "isAbout": [
+              {
+                  "@id": " ",
+              }
+        ]
+  },
+  {
+      "@id": "cbcl_q08_p",
+"cbcl_q13_p"
+"cbcl_q18_p"
+"cbcl_q23_p"
+"cbcl_q28_p"
+"cbcl_q33_p"
+"cbcl_q38_p"
+"cbcl_q43_p"
+"cbcl_q48_p"
+"cbcl_q53_p"
+"cbcl_q56c_p"
+"cbcl_q56h_p"
+"cbcl_q61_p"
+"cbcl_q66_p"
+"cbcl_q71_p"
+"cbcl_q76_p"
+"cbcl_q81_p"
+"cbcl_q86_p"
+"cbcl_q91_p"
+"cbcl_q96_p"
+"cbcl_q101_p"
+"cbcl_q106_p"
+"cbcl_q111_p"
+"study_cohort_name"
+"dataset_id"
+"sex"
+"cbcl_q04_p"
+"cbcl_q09_p"
+"cbcl_q14_p"
+"cbcl_q19_p"
+"cbcl_q24_p"
+"cbcl_q29_p"
+"cbcl_q34_p"
+"cbcl_q39_p"
+"cbcl_q44_p"
+"cbcl_q49_p"
+"cbcl_q54_p"
+"cbcl_q56d_p"
+"cbcl_q57_p"
+"cbcl_q62_p"
+"cbcl_q67_p"
+"cbcl_q72_p"
+"cbcl_q77_p"
+"cbcl_q82_p"
+"cbcl_q87_p"
+"cbcl_q92_p"
+"cbcl_q97_p"
+"cbcl_q102_p"
+"cbcl_q107_p"
+"cbcl_q112_p"
