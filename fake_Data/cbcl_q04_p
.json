@@ -3,8 +3,8 @@
       "@id": "cbcl_q04_p", 
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/base/ilx_0377827",
-                  "label": "perseverance"
+                  "@id": "cbcl_scr_syn_attention_r",
+                  "label": "Attention CBCL Syndrome Scale (raw score)"
               }
           ]
   }

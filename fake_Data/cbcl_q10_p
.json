@@ -3,8 +3,8 @@
       "@id": "cbcl_q10_p",
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/ilx_0105154",
-                  "label": "Hyperactive"
+                  "@id": "hcbcl_scr_syn_attention_r",
+                  "label": "Attention CBCL Syndrome Scale (raw score)"
               }
           ]
   }

@@ -3,8 +3,8 @@
       "@id": "cbcl_q19_p",
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/base/ilx_0377827",
-                  "label": "cbcl_internal (Child Behavior Checklist (CBCL) 1-5)"
+                  "@id": "cbcl_scr_syn_aggressive_r",
+                  "label": "Aggressive CBCL Syndrome Scale (raw score)"
               }
           ]
   }
