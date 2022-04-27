@@ -450,5 +450,45 @@
         "label": "cohort name"
       }
     ]
-  }
+  },
+  {
+    "@id": "cbcls:cbcl_scr_syn_internal_r",
+    "isAbout": [
+      {
+        "@id": "https://www.cognitiveatlas.org/concept/id/trm_523ca7e778c50/"
+      }
+    ]
+  },
+  {
+    "@id": "cbcls:cbcl_scr_syn_external_r",
+    "isAbout": [
+      {
+        "@id": "https://www.cognitiveatlas.org/concept/id/trm_523ca883711cc/"
+      }
+    ]
+  },
+  {
+    "@id": "cbcls:cbcl_scr_syn_totprob_r",
+    "isAbout": [
+      {
+        "label": "do not know"
+      }
+    ]
+  },
+  {
+    "@id": "cbcls:cbcl_scr_dsm5_depress_r",
+    "isAbout": [
+      {
+        "@id": "https://www.cognitiveatlas.org/disorder/id/dso_1470/"
+      }
+    ]
+  },
+  {
+    "@id": "cbcls:cbcl_scr_dsm5_anxdisord_r",
+    "isAbout": [
+      {
+        "@id": "https://www.cognitiveatlas.org/disorder/id/dso_2030/"
+      }
+    ]
+  }  
 ]
