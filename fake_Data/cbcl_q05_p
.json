@@ -3,8 +3,8 @@
       "@id": "cbcl_q05_p",
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/ilx_0103094",
-                  "label": "Depressive Disorder"
+                  "@id": "cbcl_scr_syn_withdep_r",
+                  "label": "WithDep CBCL Syndrome Scale (raw score)"
               }
           ]
   }
