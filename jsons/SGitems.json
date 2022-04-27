@@ -1,0 +1,454 @@
+[
+  {
+    "@id": "x",
+    "isAbout": [
+      {
+        "label": "unknown"
+      }
+    ]
+  },
+  {
+    "@id": "collection_id",
+    "isAbout": [
+      {
+        "label": "identifier of collection"
+      }
+    ]
+  },
+  {
+    "@id": "nda:interview_date",
+    "isAbout": [
+      {
+        "@id": "http://uri.interlex.org/base/ilx_0326045"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q02_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q07_p",
+    "isAbout": [
+      {
+        "label": "other problems"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q12_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_social_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q17_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_attention_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q22_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_aggressive_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q27_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_social_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q32_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_07_ocd_r"
+      },
+      {
+        "@id": "cbcls:cbcl_scr_syn_anxdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q37_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_aggressive_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q42_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_withdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q47_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_somatic_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q52_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_07_ocd_r"
+      },
+      {
+        "@id": "cbcls:cbcl_scr_syn_anxdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q56b_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_somatic_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q56g_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_somatic_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q60_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q65_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_withdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q70_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q75_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_withdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q80_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_attention_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q85_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_07_ocd_r"
+      },
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q90_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q95_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_aggressive_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q100_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q105_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q110_p",
+    "isAbout": [
+      {
+        "label": "other problems"
+      }
+    ]
+  },
+  {
+    "@id": "collection_title",
+    "isAbout": [
+      {
+        "label": "title of collection"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:abcd_cbcl01_id",
+    "isAbout": [
+      {
+        "label": "some abcd id"
+      }
+    ]
+  },
+  {
+    "@id": "nda:interview_age",
+    "isAbout": [
+      {
+        "@id": "http://uri.interlex.org/base/cde_0126938"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q03_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_aggressive_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q08_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_attention_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q13_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_attention_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q18_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q23_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_aggressive_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q28_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q33_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_anxdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q38_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_social_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q43_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q48_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_social_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q53_p",
+    "isAbout": [
+      {
+        "label": "other problems"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q56c_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_somatic_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q56h_p",
+    "isAbout": [
+      {
+        "label": "other problems"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q61_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_attention_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q66_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_07_ocd_r"
+      },
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q71_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_anxdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q76_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_thought_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q81_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q86_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_aggressive_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q91_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_anxdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q96_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q101_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q106_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_rulebreak_r"
+      }
+    ]
+  },
+  {
+    "@id": "cbcl:cbcl_q111_p",
+    "isAbout": [
+      {
+        "@id": "cbcls:cbcl_scr_syn_withdep_r"
+      }
+    ]
+  },
+  {
+    "@id": "study_cohort_name",
+    "isAbout": [
+      {
+        "label": "cohort name"
+      }
+    ]
+  }
+]
