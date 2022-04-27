@@ -3,8 +3,8 @@
       "@id": "cbcl_q73_p",
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/base/ilx_0377827",
-                  "label": "cbcl_internal (Child Behavior Checklist (CBCL) 1-5)"
+                  "@id": "hcbcl_scr_syn_rulebreak_r",
+                  "label": "cRuleBreak CBCL Syndrome Scale (raw score)"
               }
           ]
   }

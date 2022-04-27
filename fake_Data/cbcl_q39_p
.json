@@ -3,7 +3,7 @@
       "@id": "cbcl_q39_p",
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/base/ilx_0377827",
+                  "@id": "cbcl_scr_syn_rulebreak_r",
                   "label": "cbcl_internal (Child Behavior Checklist (CBCL) 1-5)"
               }
           ]
