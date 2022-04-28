@@ -446,5 +446,51 @@
                   "@id": "items/cbcl_scr_dsm5_anxdisord_r",
               }
         ]
+  },
+# Scores assigned to me
+# AnxDep CBCL Syndrome Scale 
+  {
+    "@id": "items/cbcl_scr_syn_anxdep_r",
+    "isAbout": [
+      {
+        "@id": ""
+      }
+    ]
+  }, 
+# WithDep CBCL Syndrome Scale 
+  {
+    "@id": "items/cbcl_scr_syn_withdep_r",
+    "isAbout": [
+      {
+        "@id": ""
+      }
+    ]
+  },
+# Somatic CBCL Syndrome Scale 
+  {
+    "@id": "items/cbcl_scr_syn_somatic_r",
+    "isAbout": [
+      {
+        "@id": ""
+      }
+    ]
+  },
+# Social CBCL Syndrome Scale 
+  {
+    "@id": "items/cbcl_scr_syn_social_r",
+    "isAbout": [
+      {
+        "@id": ""
+      }
+    ]
+  },
+# Thought CBCL Syndrome Scale 
+  {
+    "@id": "items/cbcl_scr_syn_thought_r",
+    "isAbout": [
+      {
+        "@id": ""
+      }
+    ]
   }
 ]
