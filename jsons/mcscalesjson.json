@@ -1,0 +1,79 @@
+[{ "@id": "cbcl_scr_syn_anxdep_r",
+      "isAbout": [
+              {
+                  "@id": "cbcl_scr_syn_anxdep_r",
+                  "label": "AnxDep CBCL Syndrome Scale (raw score)",
+                  "@id": "http://uri.interlex.org/base/ilx_0364903",
+                  "label": "Child Behavior Checklist (CBCL) 1-5)",
+                    "@id": "https://www.cognitiveatlas.org/concept/id/trm_5022ef7599294/",
+                    "label" : "Anxiety",
+                    "@id": "http://purl.obolibrary.org/obo/NBO_0000085",
+                    "label": "depression related behaviour",
+                    "@id": "http://purl.obolibrary.org/obo/NBO_0000515",
+                    "label": "depressive disorder not otherwise specified",
+                    "@id": "http://purl.obolibrary.org/obo/NBO_0000092",
+                    "label" : "anxiety-related behaviour",
+                  "@id": "http://purl.obolibrary.org/obo/NBO_0000515",
+                  "label": "Anxiety",
+                  "@id": "http://id.nlm.nih.gov/mesh/D003863",
+                  "label": "Depression"
+              }]},
+          {"@id":  "cbcl_scr_dsm5_conduct_r",
+           "isAbout": [
+               {
+                   "@id": "cbcl_scr_dsm5_conduct_r",
+                   "label": "Conduct CBCL DSM5 Scale (raw score)",
+                   "@id": "http://uri.interlex.org/base/ilx_0364903",
+                   "label": "Child Behavior Checklist (CBCL) 1-5)",
+                   "@id": "https://www.cognitiveatlas.org/concept/id/trm_523e00f356226/",
+                   "label": "Conduct Disorder",
+                   "@id": "http://purl.obolibrary.org/obo/DOID_12995",
+                   "label": "Conduct Disorder",
+                   "@id": "http://id.nlm.nih.gov/mesh/D019955",
+                   "label": "Conduct Disorder"
+               }]},
+            {"@id": "cbcl_scr_07_sct_r",
+            "isAbout": [
+                {
+                    "@id": "cbcl_scr_07_sct_r",
+                    "label": "Sluggish Cognitive Tempo (SCT) CBCL Scale2007 Scale (raw score)",
+                    "@id": "http://uri.interlex.org/base/ilx_0364903",
+                    "label": "Child Behavior Checklist (CBCL) 1-5)",
+                    "@id": "http://uri.interlex.org/base/ilx_0365233",
+                    "label": "cscl_sct_perc (Child Behavior Checklist (CBCL) 1-5)",
+                    "@id": "http://purl.obolibrary.org/obo/DOID_12995",
+                    "label": "Cognitive Behavior Phenotype",
+                    "@id": "http://id.nlm.nih.gov/mesh/D000087346",
+                    "label": "Sluggish Cognitive Tempo"
+                }]},
+            {"@id": "cbcl_scr_07_ocd_r",
+             "isAbout": [
+                 {
+                     "@id": "cbcl_scr_07_ocd_r",
+                     "label": "Obsessive-Compulsive Problems (OCD) CBCL Scale2007 Scale (raw score)",
+                     "@id": "http://uri.interlex.org/base/ilx_0364903",
+                     "label": "Child Behavior Checklist (CBCL) 1-5)",
+                     "@id": "http://uri.interlex.org/base/cde_0365031",
+                     "label": "cbcl_ocd_raw (Child Behavior Checklist (CBCL) 1-5)",
+                     "@id": "http://id.nlm.nih.gov/mesh/D009771",
+                     "label": "Obsessive-Compulsive Disorder",
+                     "@id": "http://purl.obolibrary.org/obo/NBO_0000248",
+                     "label": "Obsessive-Compulsive Disorder"
+                 }]},
+             {"@id": "cbcl_scr_07_stress_r",
+              "isAbout": [
+                  {
+                      "@id": "cbcl_scr_07_stress_r",
+                      "label": "Stress CBCL Scale2007 Scale (raw score)",
+                      "@id": "http://uri.interlex.org/base/cde_0364903",
+                      "label": "Child Behavior Checklist (CBCL) 1-5",
+                      "@id": "http://uri.interlex.org/base/cde_0365045",
+                      "label": "cscl_ptsd_perc (Child Behavior Checklist (CBCL) 1-5)",
+                      "@id" : "https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b2a8/",
+                      "label": "Stress",
+                      "@id": "http://id.nlm.nih.gov/mesh/D013313",
+                      "label": "Stress Disorders, Post-Traumatic",
+                      "@id": "http://purl.obolibrary.org/obo/NBO_0000534",
+                      "label": "post-traumatic stress"
+                  }]}
+                 ]
