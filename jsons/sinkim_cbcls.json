@@ -1,0 +1,93 @@
+{
+    "DD(source=sinkim_cbcls.csv, variable=cbcl_scr_dsm5_anxdisord_r)": {
+        "label": "cbcl_scr_dsm5_anxdisord_r",
+        "description": "DSM-5-oriented scale for anxiety disorders",
+        "sourceVariable": "cbcl_scr_dsm5_anxdisord_r",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0100801",
+                "label": "Anxiety Disorder"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0767009",
+                "label": "anxiety disorder"
+            }
+        ],
+        "responseOptions": {
+            "valueType": "xsd:integer",
+            "minValue": 0
+        }
+    },
+    "DD(source=sinkim_cbcls.csv, variable=cbcl_scr_dsm5_somaticpr_r)": {
+        "label": "cbcl_scr_dsm5_somaticpr_r",
+        "description": "DSM-5-oriented scale for somatic symptom disorder",
+        "sourceVariable": "cbcl_scr_dsm5_somaticpr_r",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0767446",
+                "label": "somatoform disorder"
+            }
+        ],
+        "responseOptions": {
+            "valueType": "xsd:integer",
+            "minValue": 0
+        }
+    },
+    "DD(source=sinkim_cbcls.csv, variable=cbcl_scr_dsm5_adhd_r)": {
+        "label": "cbcl_scr_dsm5_adhd_r",
+        "description": "DSM-5-oriented scale for attention deficit hyperactivity disorder",
+        "sourceVariable": "cbcl_scr_dsm5_adhd_r",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0100981",
+                "label": "Attention deficit-hyperactivity disorder"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0751953",
+                "label": "attention deficit-hyperactivity disorder"
+            }
+        ],
+        "responseOptions": {
+            "valueType": "xsd:integer",
+            "minValue": 0
+        }
+    },
+    "DD(source=sinkim_cbcls.csv, variable=cbcl_scr_dsm5_opposit_r)": {
+        "label": "cbcl_scr_dsm5_opposit_r",
+        "description": "DSM-5-oriented scale for oppositional defiant disorder",
+        "sourceVariable": "cbcl_scr_dsm5_opposit_r",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0505946",
+                "label": "Oppositional Defiant Disorder"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0763609",
+                "label": "oppositional defiant disorder (disease)"
+            }
+        ],
+        "responseOptions": {
+            "valueType": "xsd:integer",
+            "minValue": 0
+        }
+    },
+    "DD(source=sinkim_cbcls.csv, variable=cbcl_scr_dsm5_conduct_r)": {
+        "label": "cbcl_scr_dsm5_conduct_r",
+        "description": "DSM-5-oriented scale for conduct disorder",
+        "sourceVariable": "cbcl_scr_dsm5_conduct_r",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0488039",
+                "label": "Conduct Disorder"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0758284",
+                "label": "conduct disorder"
+            }
+        ],
+        "responseOptions": {
+            "valueType": "xsd:integer",
+            "minValue": 0
+        }
+    }
+}

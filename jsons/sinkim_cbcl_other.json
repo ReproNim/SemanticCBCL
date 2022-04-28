@@ -1,0 +1,713 @@
+[
+    {
+        "@id": "cbcl_q01_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329779",
+                "label": "ysr_1 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301677",
+                "label": "tr01 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q06_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0349784",
+                "label": "ablls78 (Assessment of Basic Language and Learning Skills)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0373223",
+                "label": "vine_dls_deftoilet (CPEA STAART Vineland I)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0313250",
+                "label": "personal_16 (Vineland-II - Survey Form (2005))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0312645",
+                "label": "cfsage1_16 (Vineland-II - Parent and Caregiver Rating Form (2005))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0311621",
+                "label": "personal_16 (Vineland 3)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0312229",
+                "label": "vine_dls_deftoilet (Vineland I)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q11_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0134832",
+                "label": "clings (Conners Parent Rating Scales Revised (CPRS) 2002)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301684",
+                "label": "tr11 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0339514",
+                "label": "motivq9 (AGRE SRS Child 2002)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q16_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0290116",
+                "label": "ssis_prob_bull (Social Skills Improvement System Parent Scale)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0135031",
+                "label": "cp39 (Conners Parent Rating Scales Revised (CPRS) 2002)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0290441",
+                "label": "ssis_prob_bull (Social Skills Improvement System Teacher Scale)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0290277",
+                "label": "ssis_prob_bull (Social Skills Improvement System Self Report)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q21_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0265800",
+                "label": "pkbs_problem34 (Preschool and Kindergarten Behavior Scales)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301702",
+                "label": "tr21 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0380908",
+                "label": "casi_q135 (Child/Adolescent Symptom Inventory)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q26_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301696",
+                "label": "tr26 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329795",
+                "label": "ysr_26 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342821",
+                "label": "asr5_2 (Adult Self Report )"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q31_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0354663",
+                "label": "basc_srpc_65 (BASC Self Report Child)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301700",
+                "label": "tr31 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q36_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301709",
+                "label": "tr36 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q41_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0365844",
+                "label": "abc_hy_impulse (CPEA STAART ABC 1994)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0339877",
+                "label": "ques_impuls (Aberrant Behavior Checklist (ABC) - Community)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q46_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301987",
+                "label": "tr46 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301716",
+                "label": "tr46des (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342706",
+                "label": "q046m_twitching_describe (Adult Behavior Check List)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q51_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0358402",
+                "label": "bai6 (Beck Anxiety Inventory)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0304591",
+                "label": "idas_16 (The Inventory of Depression and Anxiety Symptoms)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301720",
+                "label": "tr51 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0358418",
+                "label": "bai19 (Beck Anxiety Inventory)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0184988",
+                "label": "p24a8 (Kiddie-Sads Mania Rating Scale)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0254430",
+                "label": "phy_rater_44 (Pediatric Anxiety Rating Scale (PARS))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0254420",
+                "label": "phy_child_44 (Pediatric Anxiety Rating Scale (PARS))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0254407",
+                "label": "phy_par_44 (Pediatric Anxiety Rating Scale (PARS))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56a_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0134784",
+                "label": "aches_pains (Conners Parent Rating Scales Revised (CPRS) 2002)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301725",
+                "label": "tr56a (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56f_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301729",
+                "label": "tr56f (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0287162",
+                "label": "se_b17 (Side Effects)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342860",
+                "label": "asr11_2 (Adult Self Report )"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0281033",
+                "label": "scared_11 (Screen for Child Anxiety Related Disorders (SCARED), Parent/Child)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q64_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0288321",
+                "label": "saica_c2g (Social Adjustment Inventory for Children and Adolescents)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0272331",
+                "label": "psm2prc (Psychosocial Interview)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329837",
+                "label": "ysr_71 (Youth Self Report)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q69_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301746",
+                "label": "tr69 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342506",
+                "label": "abcl069 (Adult Behavior Check List)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329841",
+                "label": "ysr_76 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342903",
+                "label": "asr13_6 (Adult Self Report )"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q74_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342565",
+                "label": "abcl074 (Adult Behavior Check List)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q79_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0328885",
+                "label": "tic27 (Yale Global Severity Tic Scale)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0738606",
+                "label": "speech disorder"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q84_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0353740",
+                "label": "basc_t9 (BASC Parent Rating Scale Adolescent)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0355108",
+                "label": "basc_t9 (BASC Teacher Rating Scale Adolescent)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q94_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0353639",
+                "label": "basc_t50 (BASC Parent Rating Scale Adolescent)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301775",
+                "label": "tr94 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q99_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0353661",
+                "label": "basc_t122 (BASC Parent Rating Scale Adolescent)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0355007",
+                "label": "basc_t122 (BASC Teacher Rating Scale Adolescent)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301778",
+                "label": "tr99 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0111787",
+                "label": "Tobacco craving questionnaire"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q104_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301783",
+                "label": "tr104 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0264607",
+                "label": "prs_19 (Pragmatic Rating Scale)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342570",
+                "label": "abcl104 (Adult Behavior Check List)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q109_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0354119",
+                "label": "basc_prsp_50 (BASC Parent Rating Scale Preschool)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0168625",
+                "label": "pfcs_7 (Feelings Checklist)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0265803",
+                "label": "pkbs_problem37 (Preschool and Kindergarten Behavior Scales)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0277046",
+                "label": "ritvo_17 (Ritvo-Freeman Real Life Rating Scale)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0164481",
+                "label": "ecbi15a (Eyberg Child Behavior Inventory)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q02_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329681",
+                "label": "yrbs16a (Youth Risk Behavior Survey)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q07_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301678",
+                "label": "tr07 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0135032",
+                "label": "cp40 (Conners Parent Rating Scales Revised (CPRS) 2002)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q12_p",
+        "isAbout": [
+            {
+                "@id": "http://cognitiveatlas.org/concept/json/trm_529d0d62290de/",
+                "label": "loneliness"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q17_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301734",
+                "label": "tr17 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q22_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329793",
+                "label": "ysr_22 (Youth Self Report)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q27_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301691",
+                "label": "tr27 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q32_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0491905",
+                "label": "Perfectionism"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0135211",
+                "label": "perfectionism_raw (Conners Teacher Rating Scales - Revised (CTRS-R))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q37_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329809",
+                "label": "ysr_37 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342831",
+                "label": "asr7_1 (Adult Self Report )"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0134346",
+                "label": "casr32 (Conners Adolescent Self-Report)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q47_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0187243",
+                "label": "nightmares (Kiddie-Sads-Present and Lifetime Version (K-SADS-PL) )"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0300348",
+                "label": "casr69 (Systematic Assessment for Treatment Emergent Effects)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0134383",
+                "label": "casr69 (Conners Adolescent Self-Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0287718",
+                "label": "child_sleep20 (Sleep Assessment)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0121427",
+                "label": "ssr_20 (Children Sleep Habit)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329815",
+                "label": "ysr_47 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0135378",
+                "label": "cass87_u (Conners-Wells Self-Report Scale)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q52_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0141677",
+                "label": "guilty (Depressive Experiences Questionnaire)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0260680",
+                "label": "pdq97 (Personal Diagnostic Questionnaire)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56g_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301732",
+                "label": "tr56g (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0343003",
+                "label": "asr11_3 (Adult Self Report )"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q60_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329865",
+                "label": "ysr_103 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342905",
+                "label": "asr18_3 (Adult Self Report )"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q65_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329839",
+                "label": "ysr_72 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342870",
+                "label": "asr13_2 (Adult Self Report )"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q70_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0353835",
+                "label": "basc_t65 (BASC Parent Rating Scale Adolescent)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301755",
+                "label": "tr70des (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301747",
+                "label": "tr70 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0355134",
+                "label": "basc_t65 (BASC Teacher Rating Scale Adolescent)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q75_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301754",
+                "label": "tr75 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0134771",
+                "label": "timid (Conners Parent Rating Scales Revised (CPRS) 2002)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q80_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0370999",
+                "label": "pddbiarouserrstares (CPEA STAART PDDBI)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0248236",
+                "label": "pdp062 (PDD Behavior Inventory (Teacher))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0248152",
+                "label": "pdp062 (PDD Behavior Inventory (Parent))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0339557",
+                "label": "motivq65 (AGRE SRS Child 2002)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0372140",
+                "label": "srs_2005_parentreport_65 (CPEA STAART SRS)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0339802",
+                "label": "ques_preocc (Aberrant Behavior Checklist (ABC) - Community)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0311476",
+                "label": "motivq65 (Video-Referenced Ratings of Reciprocal Social Behavior)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0365895",
+                "label": "abc_lg_stares (CPEA STAART ABC 1994)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q85_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301769",
+                "label": "tr85 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0353659",
+                "label": "basc_t51 (BASC Parent Rating Scale Adolescent)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0355065",
+                "label": "basc_t51 (BASC Teacher Rating Scale Adolescent)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q90_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0222823",
+                "label": "hbq_53 (MacArthur Health and Behavior Questionnaire)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377626",
+                "label": "capi146 (Child Abuse Potential Inventory)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q95_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0284030",
+                "label": "sensory_c_108 (Sensory Profile Caregiver 2)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0164443",
+                "label": "ecbi13 (Eyberg Child Behavior Inventory)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0312887",
+                "label": "pb1sectionb_2 (Vineland-II - Parent and Caregiver Rating Form (2005))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301776",
+                "label": "tr95 (Teacher Report Form (Achenbach))"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q105_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301785",
+                "label": "tr105 (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0301786",
+                "label": "tr105des (Teacher Report Form (Achenbach))"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329869",
+                "label": "ysr_112 (Youth Self Report)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q110_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0329875",
+                "label": "ysr_117 (Youth Self Report)"
+            },
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0342916",
+                "label": "asr20_5 (Adult Self Report )"
+            }
+        ]
+    }
+]

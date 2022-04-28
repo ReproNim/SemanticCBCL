@@ -453,7 +453,14 @@
     "@id": "items/cbcl_scr_syn_anxdep_r",
     "isAbout": [
       {
-        "@id": ""
+        "@id": "https://www.cognitiveatlas.org/concept/id/trm_5022ef7599294/",
+		"label": "Anxiety as a concept"
+	  },
+	  {
+		"@id": "https://www.cognitiveatlas.org/disorder/id/dso_1596/"
+	  },
+	  {
+		"@id": "https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d0b014/" # sadness
       }
     ]
   }, 
@@ -461,8 +468,11 @@
   {
     "@id": "items/cbcl_scr_syn_withdep_r",
     "isAbout": [
-      {
-        "@id": ""
+      {  
+	    "@id": "http://cognitiveatlas.org/concept/id/trm_523c7ba79c2f1/"
+	  },
+	  {
+		"@id": "https://www.cognitiveatlas.org/disorder/id/dso_1596/"
       }
     ]
   },
@@ -471,7 +481,7 @@
     "@id": "items/cbcl_scr_syn_somatic_r",
     "isAbout": [
       {
-        "@id": ""
+        "@id": "https://www.ontobee.org/ontology/DOID?iri=http://purl.obolibrary.org/obo/DOID_4737"
       }
     ]
   },
@@ -480,7 +490,7 @@
     "@id": "items/cbcl_scr_syn_social_r",
     "isAbout": [
       {
-        "@id": ""
+        "@id": "https://www.cognitiveatlas.org/concept/id/trm_523e053844495/"
       }
     ]
   },
@@ -489,7 +499,7 @@
     "@id": "items/cbcl_scr_syn_thought_r",
     "isAbout": [
       {
-        "@id": ""
+        "@id": "https://www.cognitiveatlas.org/concept/id/trm_4fa3afaeef512/"
       }
     ]
   }
