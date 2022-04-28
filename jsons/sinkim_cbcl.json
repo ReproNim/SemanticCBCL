@@ -1,0 +1,470 @@
+[
+    {
+        "@id": "src_subject_id",
+        "isAbout": [
+            {
+                "@id": "https://ndar.nih.gov/api/datadictionary/v2/dataelement/src_subject_id",
+                "label": "src_subject_id"
+            }
+        ]
+    },
+    {
+        "@id": "collection_id",
+        "isAbout": [
+            {
+                "@id": "http://uri.neuinfo.org/nif/nifstd/nlx_158007",
+                "label": "Collection"
+            }
+        ]
+    },
+    {
+        "@id": "interview_date",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/ilx_0383109",
+                "label": "Date"
+            }
+        ]
+    },
+    {
+        "@id": "collection_title",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0111779",
+                "label": "Title"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q01_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378309",
+                "label": "cbcl1 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q06_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377986",
+                "label": "cbcl6 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q11_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377987",
+                "label": "cbcl11 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q16_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377995",
+                "label": "cbcl16 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q21_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377997",
+                "label": "cbcl21 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q26_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378003",
+                "label": "cbcl26 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q31_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378007",
+                "label": "cbcl31 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q36_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378009",
+                "label": "cbcl36 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q41_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378316",
+                "label": "cbcl41 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q46_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378024",
+                "label": "cbcl46 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q51_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378023",
+                "label": "cbcl51 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56a_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378027",
+                "label": "cbcl56a (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56f_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378032",
+                "label": "cbcl56f (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q59_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378036",
+                "label": "cbcl59 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q64_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378046",
+                "label": "cbcl64 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q69_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378044",
+                "label": "cbcl69 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q74_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378051",
+                "label": "cbcl74 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q79_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378055",
+                "label": "cbcl79 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q84_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378059",
+                "label": "cbcl84 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q89_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378064",
+                "label": "cbcl89 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q94_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378068",
+                "label": "cbcl94 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q99_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378322",
+                "label": "cbcl99 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q104_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378076",
+                "label": "cbcl104 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q109_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378088",
+                "label": "cbcl109 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q02_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377982",
+                "label": "cbcl2 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q07_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377992",
+                "label": "cbcl7 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q12_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377994",
+                "label": "cbcl12 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q17_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378002",
+                "label": "cbcl17 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q22_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0377999",
+                "label": "cbcl22 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q27_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378004",
+                "label": "cbcl27 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q32_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378313",
+                "label": "cbcl32 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q37_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378010",
+                "label": "cbcl37 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q42_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378015",
+                "label": "cbcl42 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q47_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378019",
+                "label": "cbcl47 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q52_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378318",
+                "label": "cbcl52 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56b_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378028",
+                "label": "cbcl56b (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q56g_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378033",
+                "label": "cbcl56g (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q60_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378037",
+                "label": "cbcl60 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q65_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378040",
+                "label": "cbcl65 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q70_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378047",
+                "label": "cbcl70 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q75_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378050",
+                "label": "cbcl75 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q80_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378056",
+                "label": "cbcl80 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q85_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378060",
+                "label": "cbcl85 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q90_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378321",
+                "label": "cbcl90 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q95_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378069",
+                "label": "cbcl95 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q100_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378074",
+                "label": "cbcl100 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q105_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378323",
+                "label": "cbcl105 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    },
+    {
+        "@id": "cbcl_q110_p",
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/base/ilx_0378080",
+                "label": "cbcl110 (Child Behavior Checklist (CBCL) 6-18)"
+            }
+        ]
+    }
+]
