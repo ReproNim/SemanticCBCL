@@ -274,7 +274,7 @@
       "@id": "cbcl_q14_p",
       "isAbout": [
              {
-                  "@id": "AffectiveProblems",
+                  "@id": "dsm_AffectiveProblems",
               }
         ]
   },
@@ -290,7 +290,7 @@
       "@id": "cbcl_q24_p",
       "isAbout": [
              {
-                  "@id": "AffectiveProblems",
+                  "@id": "dsm_AffectiveProblems",
               }
         ]
   },
@@ -338,7 +338,7 @@
       "@id": "cbcl_q54_p",
       "isAbout": [
              {
-                  "@id": "AffectiveProblems",
+                  "@id": "dsm_AffectiveProblems",
               }
         ]
   },
@@ -427,7 +427,7 @@
       "@id": "cbcl_q102_p",
       "isAbout": [
              {
-                  "@id": "DSM_AffectiveProblems",
+                  "@id": "dsm_AffectiveProblems",
               }
         ]
   },
@@ -446,4 +446,5 @@
                   "@id": "items/cbcl_scr_dsm5_anxdisord_r",
               }
         ]
-  },
+  }
+]
