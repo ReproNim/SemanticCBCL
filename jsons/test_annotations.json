@@ -1,0 +1,5064 @@
+{
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='collection_id')": {
+        "label": "collection_id",
+        "description": "",
+        "source_variable": "collection_id",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='abcd_cbcl01_id')": {
+        "label": "abcd_cbcl01_id",
+        "description": "",
+        "source_variable": "abcd_cbcl01_id",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='dataset_id')": {
+        "label": "dataset_id",
+        "description": "",
+        "source_variable": "dataset_id",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='subjectkey')": {
+        "label": "subjectkey",
+        "description": "Subject key",
+        "source_variable": "subjectkey",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#string"
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='src_subject_id')": {
+        "label": "src_subject_id",
+        "description": "subject/participant identifier",
+        "source_variable": "src_subject_id",
+        "responseOptions": {
+            "valueType": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "isAbout": [
+            {
+                "@id": "https://ndar.nih.gov/api/datadictionary/v2/dataelement/src_subject_id",
+                "label": "src_subject_id"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='interview_date')": {
+        "label": "interview_date",
+        "description": "",
+        "source_variable": "interview_date",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='interview_age')": {
+        "label": "interview_age",
+        "description": "",
+        "source_variable": "interview_age",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='sex')": {
+        "label": "sex",
+        "description": "",
+        "source_variable": "sex",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "minValue": "NA",
+            "maxValue": "NA",
+            "unitCode": "NA",
+            "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+            "choices": [
+                "M",
+                "F"
+            ]
+        },
+        "isAbout": [
+            {
+                "@id": "http://uri.interlex.org/ilx_0738439",
+                "label": "SEX"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_select_language___1')": {
+        "label": "cbcl_select_language___1",
+        "description": "",
+        "source_variable": "cbcl_select_language___1",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "minValue": "NA",
+            "maxValue": "NA",
+            "unitCode": "NA",
+            "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+            "choices": {
+                "Yes": "1",
+                "No": "0"
+            }
+        }
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q01_p')": {
+        "label": "cbcl_q01_p",
+        "description": "",
+        "source_variable": "cbcl_q01_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q02_p')": {
+        "label": "cbcl_q02_p",
+        "description": "",
+        "source_variable": "cbcl_q02_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q03_p')": {
+        "label": "cbcl_q03_p",
+        "description": "",
+        "source_variable": "cbcl_q03_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q04_p')": {
+        "label": "cbcl_q04_p",
+        "description": "",
+        "source_variable": "cbcl_q04_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q05_p')": {
+        "label": "cbcl_q05_p",
+        "description": "",
+        "source_variable": "cbcl_q05_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q06_p')": {
+        "label": "cbcl_q06_p",
+        "description": "",
+        "source_variable": "cbcl_q06_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q07_p')": {
+        "label": "cbcl_q07_p",
+        "description": "",
+        "source_variable": "cbcl_q07_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q08_p')": {
+        "label": "cbcl_q08_p",
+        "description": "",
+        "source_variable": "cbcl_q08_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q09_p')": {
+        "label": "cbcl_q09_p",
+        "description": "",
+        "source_variable": "cbcl_q09_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q10_p')": {
+        "label": "cbcl_q10_p",
+        "description": "",
+        "source_variable": "cbcl_q10_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q11_p')": {
+        "label": "cbcl_q11_p",
+        "description": "",
+        "source_variable": "cbcl_q11_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q12_p')": {
+        "label": "cbcl_q12_p",
+        "description": "",
+        "source_variable": "cbcl_q12_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q13_p')": {
+        "label": "cbcl_q13_p",
+        "description": "",
+        "source_variable": "cbcl_q13_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q14_p')": {
+        "label": "cbcl_q14_p",
+        "description": "",
+        "source_variable": "cbcl_q14_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q15_p')": {
+        "label": "cbcl_q15_p",
+        "description": "",
+        "source_variable": "cbcl_q15_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q16_p')": {
+        "label": "cbcl_q16_p",
+        "description": "",
+        "source_variable": "cbcl_q16_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q17_p')": {
+        "label": "cbcl_q17_p",
+        "description": "",
+        "source_variable": "cbcl_q17_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q18_p')": {
+        "label": "cbcl_q18_p",
+        "description": "",
+        "source_variable": "cbcl_q18_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q19_p')": {
+        "label": "cbcl_q19_p",
+        "description": "",
+        "source_variable": "cbcl_q19_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q20_p')": {
+        "label": "cbcl_q20_p",
+        "description": "",
+        "source_variable": "cbcl_q20_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q21_p')": {
+        "label": "cbcl_q21_p",
+        "description": "",
+        "source_variable": "cbcl_q21_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q22_p')": {
+        "label": "cbcl_q22_p",
+        "description": "",
+        "source_variable": "cbcl_q22_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q23_p')": {
+        "label": "cbcl_q23_p",
+        "description": "",
+        "source_variable": "cbcl_q23_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q24_p')": {
+        "label": "cbcl_q24_p",
+        "description": "",
+        "source_variable": "cbcl_q24_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q25_p')": {
+        "label": "cbcl_q25_p",
+        "description": "",
+        "source_variable": "cbcl_q25_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q26_p')": {
+        "label": "cbcl_q26_p",
+        "description": "",
+        "source_variable": "cbcl_q26_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q27_p')": {
+        "label": "cbcl_q27_p",
+        "description": "",
+        "source_variable": "cbcl_q27_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q28_p')": {
+        "label": "cbcl_q28_p",
+        "description": "",
+        "source_variable": "cbcl_q28_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q29_p')": {
+        "label": "cbcl_q29_p",
+        "description": "",
+        "source_variable": "cbcl_q29_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q30_p')": {
+        "label": "cbcl_q30_p",
+        "description": "",
+        "source_variable": "cbcl_q30_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q31_p')": {
+        "label": "cbcl_q31_p",
+        "description": "",
+        "source_variable": "cbcl_q31_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q32_p')": {
+        "label": "cbcl_q32_p",
+        "description": "",
+        "source_variable": "cbcl_q32_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q33_p')": {
+        "label": "cbcl_q33_p",
+        "description": "",
+        "source_variable": "cbcl_q33_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q34_p')": {
+        "label": "cbcl_q34_p",
+        "description": "",
+        "source_variable": "cbcl_q34_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q35_p')": {
+        "label": "cbcl_q35_p",
+        "description": "",
+        "source_variable": "cbcl_q35_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q36_p')": {
+        "label": "cbcl_q36_p",
+        "description": "",
+        "source_variable": "cbcl_q36_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q37_p')": {
+        "label": "cbcl_q37_p",
+        "description": "",
+        "source_variable": "cbcl_q37_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q38_p')": {
+        "label": "cbcl_q38_p",
+        "description": "",
+        "source_variable": "cbcl_q38_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q39_p')": {
+        "label": "cbcl_q39_p",
+        "description": "",
+        "source_variable": "cbcl_q39_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q40_p')": {
+        "label": "cbcl_q40_p",
+        "description": "",
+        "source_variable": "cbcl_q40_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q41_p')": {
+        "label": "cbcl_q41_p",
+        "description": "",
+        "source_variable": "cbcl_q41_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q42_p')": {
+        "label": "cbcl_q42_p",
+        "description": "",
+        "source_variable": "cbcl_q42_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q43_p')": {
+        "label": "cbcl_q43_p",
+        "description": "",
+        "source_variable": "cbcl_q43_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q44_p')": {
+        "label": "cbcl_q44_p",
+        "description": "",
+        "source_variable": "cbcl_q44_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q45_p')": {
+        "label": "cbcl_q45_p",
+        "description": "",
+        "source_variable": "cbcl_q45_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q46_p')": {
+        "label": "cbcl_q46_p",
+        "description": "",
+        "source_variable": "cbcl_q46_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q47_p')": {
+        "label": "cbcl_q47_p",
+        "description": "",
+        "source_variable": "cbcl_q47_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q48_p')": {
+        "label": "cbcl_q48_p",
+        "description": "",
+        "source_variable": "cbcl_q48_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q49_p')": {
+        "label": "cbcl_q49_p",
+        "description": "",
+        "source_variable": "cbcl_q49_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q50_p')": {
+        "label": "cbcl_q50_p",
+        "description": "",
+        "source_variable": "cbcl_q50_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q51_p')": {
+        "label": "cbcl_q51_p",
+        "description": "",
+        "source_variable": "cbcl_q51_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q52_p')": {
+        "label": "cbcl_q52_p",
+        "description": "",
+        "source_variable": "cbcl_q52_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q53_p')": {
+        "label": "cbcl_q53_p",
+        "description": "",
+        "source_variable": "cbcl_q53_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q54_p')": {
+        "label": "cbcl_q54_p",
+        "description": "",
+        "source_variable": "cbcl_q54_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q55_p')": {
+        "label": "cbcl_q55_p",
+        "description": "",
+        "source_variable": "cbcl_q55_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56a_p')": {
+        "label": "cbcl_q56a_p",
+        "description": "",
+        "source_variable": "cbcl_q56a_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56b_p')": {
+        "label": "cbcl_q56b_p",
+        "description": "",
+        "source_variable": "cbcl_q56b_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56c_p')": {
+        "label": "cbcl_q56c_p",
+        "description": "",
+        "source_variable": "cbcl_q56c_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56d_p')": {
+        "label": "cbcl_q56d_p",
+        "description": "",
+        "source_variable": "cbcl_q56d_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56e_p')": {
+        "label": "cbcl_q56e_p",
+        "description": "",
+        "source_variable": "cbcl_q56e_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56f_p')": {
+        "label": "cbcl_q56f_p",
+        "description": "",
+        "source_variable": "cbcl_q56f_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56g_p')": {
+        "label": "cbcl_q56g_p",
+        "description": "",
+        "source_variable": "cbcl_q56g_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q56h_p')": {
+        "label": "cbcl_q56h_p",
+        "description": "",
+        "source_variable": "cbcl_q56h_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q57_p')": {
+        "label": "cbcl_q57_p",
+        "description": "",
+        "source_variable": "cbcl_q57_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q58_p')": {
+        "label": "cbcl_q58_p",
+        "description": "",
+        "source_variable": "cbcl_q58_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q59_p')": {
+        "label": "cbcl_q59_p",
+        "description": "",
+        "source_variable": "cbcl_q59_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q60_p')": {
+        "label": "cbcl_q60_p",
+        "description": "",
+        "source_variable": "cbcl_q60_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q61_p')": {
+        "label": "cbcl_q61_p",
+        "description": "",
+        "source_variable": "cbcl_q61_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q62_p')": {
+        "label": "cbcl_q62_p",
+        "description": "",
+        "source_variable": "cbcl_q62_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q63_p')": {
+        "label": "cbcl_q63_p",
+        "description": "",
+        "source_variable": "cbcl_q63_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q64_p')": {
+        "label": "cbcl_q64_p",
+        "description": "",
+        "source_variable": "cbcl_q64_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q65_p')": {
+        "label": "cbcl_q65_p",
+        "description": "",
+        "source_variable": "cbcl_q65_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q66_p')": {
+        "label": "cbcl_q66_p",
+        "description": "",
+        "source_variable": "cbcl_q66_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q67_p')": {
+        "label": "cbcl_q67_p",
+        "description": "",
+        "source_variable": "cbcl_q67_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q68_p')": {
+        "label": "cbcl_q68_p",
+        "description": "",
+        "source_variable": "cbcl_q68_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q69_p')": {
+        "label": "cbcl_q69_p",
+        "description": "",
+        "source_variable": "cbcl_q69_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q70_p')": {
+        "label": "cbcl_q70_p",
+        "description": "",
+        "source_variable": "cbcl_q70_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q71_p')": {
+        "label": "cbcl_q71_p",
+        "description": "",
+        "source_variable": "cbcl_q71_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q72_p')": {
+        "label": "cbcl_q72_p",
+        "description": "",
+        "source_variable": "cbcl_q72_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q73_p')": {
+        "label": "cbcl_q73_p",
+        "description": "",
+        "source_variable": "cbcl_q73_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q74_p')": {
+        "label": "cbcl_q74_p",
+        "description": "",
+        "source_variable": "cbcl_q74_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q75_p')": {
+        "label": "cbcl_q75_p",
+        "description": "",
+        "source_variable": "cbcl_q75_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q76_p')": {
+        "label": "cbcl_q76_p",
+        "description": "",
+        "source_variable": "cbcl_q76_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q77_p')": {
+        "label": "cbcl_q77_p",
+        "description": "",
+        "source_variable": "cbcl_q77_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q78_p')": {
+        "label": "cbcl_q78_p",
+        "description": "",
+        "source_variable": "cbcl_q78_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q79_p')": {
+        "label": "cbcl_q79_p",
+        "description": "",
+        "source_variable": "cbcl_q79_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q80_p')": {
+        "label": "cbcl_q80_p",
+        "description": "",
+        "source_variable": "cbcl_q80_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q81_p')": {
+        "label": "cbcl_q81_p",
+        "description": "",
+        "source_variable": "cbcl_q81_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q82_p')": {
+        "label": "cbcl_q82_p",
+        "description": "",
+        "source_variable": "cbcl_q82_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q83_p')": {
+        "label": "cbcl_q83_p",
+        "description": "",
+        "source_variable": "cbcl_q83_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q84_p')": {
+        "label": "cbcl_q84_p",
+        "description": "",
+        "source_variable": "cbcl_q84_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q85_p')": {
+        "label": "cbcl_q85_p",
+        "description": "",
+        "source_variable": "cbcl_q85_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q86_p')": {
+        "label": "cbcl_q86_p",
+        "description": "",
+        "source_variable": "cbcl_q86_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q87_p')": {
+        "label": "cbcl_q87_p",
+        "description": "",
+        "source_variable": "cbcl_q87_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q88_p')": {
+        "label": "cbcl_q88_p",
+        "description": "",
+        "source_variable": "cbcl_q88_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q89_p')": {
+        "label": "cbcl_q89_p",
+        "description": "",
+        "source_variable": "cbcl_q89_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q90_p')": {
+        "label": "cbcl_q90_p",
+        "description": "",
+        "source_variable": "cbcl_q90_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q91_p')": {
+        "label": "cbcl_q91_p",
+        "description": "",
+        "source_variable": "cbcl_q91_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q92_p')": {
+        "label": "cbcl_q92_p",
+        "description": "",
+        "source_variable": "cbcl_q92_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q93_p')": {
+        "label": "cbcl_q93_p",
+        "description": "",
+        "source_variable": "cbcl_q93_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q94_p')": {
+        "label": "cbcl_q94_p",
+        "description": "",
+        "source_variable": "cbcl_q94_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q95_p')": {
+        "label": "cbcl_q95_p",
+        "description": "",
+        "source_variable": "cbcl_q95_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q96_p')": {
+        "label": "cbcl_q96_p",
+        "description": "",
+        "source_variable": "cbcl_q96_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q97_p')": {
+        "label": "cbcl_q97_p",
+        "description": "",
+        "source_variable": "cbcl_q97_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q98_p')": {
+        "label": "cbcl_q98_p",
+        "description": "",
+        "source_variable": "cbcl_q98_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q99_p')": {
+        "label": "cbcl_q99_p",
+        "description": "",
+        "source_variable": "cbcl_q99_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True  En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q100_p')": {
+        "label": "cbcl_q100_p",
+        "description": "",
+        "source_variable": "cbcl_q100_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q101_p')": {
+        "label": "cbcl_q101_p",
+        "description": "",
+        "source_variable": "cbcl_q101_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q102_p')": {
+        "label": "cbcl_q102_p",
+        "description": "",
+        "source_variable": "cbcl_q102_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q103_p')": {
+        "label": "cbcl_q103_p",
+        "description": "",
+        "source_variable": "cbcl_q103_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q104_p')": {
+        "label": "cbcl_q104_p",
+        "description": "",
+        "source_variable": "cbcl_q104_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q105_p')": {
+        "label": "cbcl_q105_p",
+        "description": "",
+        "source_variable": "cbcl_q105_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q106_p')": {
+        "label": "cbcl_q106_p",
+        "description": "",
+        "source_variable": "cbcl_q106_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q107_p')": {
+        "label": "cbcl_q107_p",
+        "description": "",
+        "source_variable": "cbcl_q107_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q108_p')": {
+        "label": "cbcl_q108_p",
+        "description": "",
+        "source_variable": "cbcl_q108_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q109_p')": {
+        "label": "cbcl_q109_p",
+        "description": "",
+        "source_variable": "cbcl_q109_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q110_p')": {
+        "label": "cbcl_q110_p",
+        "description": "",
+        "source_variable": "cbcl_q110_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q111_p')": {
+        "label": "cbcl_q111_p",
+        "description": "",
+        "source_variable": "cbcl_q111_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='cbcl_q112_p')": {
+        "label": "cbcl_q112_p",
+        "description": "",
+        "source_variable": "cbcl_q112_p",
+        "associatedWith": "ABCD",
+        "responseOptions": {
+            "minValue": 0,
+            "maxValue": 2,
+            "choices": [
+                {
+                    "name": {
+                        "en": "Not True",
+                        "es": "No es cierto (que sepa usted)"
+                    },
+                    "value": 0
+                },
+                {
+                    "name": {
+                        "en": "Somewhat/Sometimes True ",
+                        "es": "En cierta manera"
+                    },
+                    "value": 1
+                },
+                {
+                    "name": {
+                        "en": "Very True/Often True",
+                        "es": "Muy cierto o cierto con frecuencia"
+                    },
+                    "value": 2
+                }
+            ],
+            "valueType": "xsd:integer"
+        },
+        "isAbout": [
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r"
+            },
+            {
+                "@id": "https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r"
+            }
+        ]
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='eventname')": {
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "eventname",
+        "description": "",
+        "source_variable": "eventname",
+        "associatedWith": "NIDM"
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='timept')": {
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "timept",
+        "description": "",
+        "source_variable": "timept",
+        "associatedWith": "NIDM"
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='collection_title')": {
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "collection_title",
+        "description": "",
+        "source_variable": "collection_title",
+        "associatedWith": "NIDM"
+    },
+    "DD(source='abcd_cbcl01_simdata.tsv', variable='study_cohort_name')": {
+        "responseOptions": {
+            "unitCode": "",
+            "minValue": "",
+            "maxValue": "",
+            "valueType": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": "study_cohort_name",
+        "description": "",
+        "source_variable": "study_cohort_name",
+        "associatedWith": "NIDM"
+    }
+}
