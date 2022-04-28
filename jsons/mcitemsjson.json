@@ -1,0 +1,462 @@
+[{
+    "@id": "x",
+    "isAbout": [
+      {
+        "label": "unknown"
+      }
+    ]
+  },
+  {
+    "@id": "subjectkey",
+      "isAbout": [
+          {
+        "label": "The NDAR Global Unique Identifier (GUID) for research subject"
+          }
+      ]
+    },
+    {
+        "@id":"cbcl_select_language___1",
+        "isAbout": [
+    {
+        "label": "Speaks Spanish"
+    }
+  ]
+},
+  {
+    "@id": "cbcl_q05_p",
+    "isAbout": [
+        {
+            "@id": "http://uri.interlex.org/base/cde_0364903",
+            "label": "Child Behavior Checklist (CBCL) 6-18",
+            "@id": "cbcl_scr_syn_withdep_r",
+            "label": "WithDep CBCL Syndrome Scale (raw score)"
+        }
+    ]
+},
+    {
+        "@id": "cbcl_q10_p",
+        "isAbout": [
+    {
+        "@id": "http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_attention_r",
+        "label": "Attention CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+     {
+        "@id": "cbcl_q15_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_dsm5_conduct_r",
+        "label": "Conduct CBCL DSM5 Scale (raw score)"
+    }
+  ]
+},
+     {
+        "@id": "cbcl_q20_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_aggressive_r",
+        "label": "Aggressive CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+ {
+        "@id": "cbcl_q25_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_social_r",
+        "label": "Social CBCL Syndrome Scale(raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q30_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364948",
+        "label": "cbcl30 (Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_anxdep_r",
+        "label": "AnxDep CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q35_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_anxdep_r",
+        "label": "AnxDep CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q40_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_thought_r",
+        "label": "Thought CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q45_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364959",
+        "label": "cbcl45 (Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_anxdep_r",
+        "label": "AnxDep CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q50_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364962",
+        "label": "cbcl50 (Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_anxdep_r",
+        "label": "AnxDep CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_dsm5_anxdisord_r",
+        "label": "AnxDisord CBCL DSM5 Scale (raw score)",
+        "@id":  "cbcl_scr_07_stress_r",
+        "label": "Stress CBCL Scale2007 Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q55_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364964",
+        "label": "cbcl55 (Child Behavior Checklist (CBCL) 6-18)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q56e_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_dsm5_somaticpr_r",
+        "label": "SomaticPr CBCL DSM5 Scale (raw score)",
+        "@id": "cbcl_scr_syn_somatic_r",
+        "label": "Somatic CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q58_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_thought_r",
+        "label": "Thought CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q63_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364971",
+        "label": "cbcl58(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_rulebreak_r",
+        "label": "RuleBreak CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q68_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364977",
+        "label": "cbcl68(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_aggressive_r",
+        "label": "Aggressive CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q73_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_rulebreak_r",
+        "label": "RuleBreak CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q78_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364985",
+        "label": "cbcl78(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_attention_r",
+        "label": "Attention CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_dsm5_adhd_r",
+        "label":  "ADHD CBCL DSM5 Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q83_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364990",
+        "label": "cbcl83(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_thought_r",
+        "label": "Thought CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q88_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364993",
+        "label": "cbcl88(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_aggressive_r",
+        "label": "Aggressive CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q93_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_dsm5_adhd_r",
+        "label": "ADHD CBCL DSM5 Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q98_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "",
+        "label": "Other"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q103_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_dsm5_depress_r",
+        "label": "Depress CBCL DSM5 Scale (raw score)",
+        "@id": "cbcl_scr_syn_withdep_r",
+        "label": "WithDep CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q108_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0365001",
+        "label": "cbcl108(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "",
+        "label": "Other"
+    }
+  ]
+},
+  {
+      "@id": "eventname",
+      "isAbout": [
+          {
+              "label": "unknown"
+          }
+      ]
+  },
+  {
+      "@id": "src_subject_id",
+      "isAbout": [
+          {
+              "label": "unknown"
+          }
+      ]
+  },
+{
+        "@id": "cbcl_q1_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_attention_r",
+        "label": "Attention CBCL Syndrome Scale (raw score)"}
+  ]
+},
+{
+        "@id": "cbcl_q06_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "",
+        "label": "Other"
+    }
+  ]
+},
+{
+        "@id": "cbcl_q11_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364938",
+        "label": "cbcl11 (Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_social_r",
+        "label": "Social CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_dsm5_anxdisord_r",
+        "label": "AnxDisord CBCL DSM5 Scale (raw score)"
+
+    }
+  ]
+},
+{
+        "@id": "cbcl_q16_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_aggressive_r",
+        "label": "Aggressive CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_dsm5_conduct_r",
+        "label": "Conduct CBCL DSM5 Scale (raw score)"}
+  ]
+},
+{
+        "@id": "cbcl_q21_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364943",
+        "label": "cbcl21(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_aggressive_r",
+        "label": "Aggressive CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_dsm5_conduct_r",
+        "label": "Conduct CBCL DSM5 Scale (raw score)"}
+  ]
+},
+{
+        "@id": "cbcl_q26_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364946",
+        "label": "cbcl26(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_aggressive_r",
+        "label": "Aggressive CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_external_r",
+        "label": "External CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_dsm5_conduct_r",
+        "label": "Conduct CBCL DSM5 Scale (raw score)"}
+  ]
+},
+{
+        "@id": "cbcl_q31_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_anxdep_r",
+        "label": "AnxDep CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_syn_internal_r",
+        "label": "Internal CBCL Syndrome Scale (raw score)",
+        "@id": "cbcl_scr_07_ocd_r",
+        "label": "Obsessive-Compulsive Problems (OCD) CBCL Scale2007 Scale (raw score)"}
+  ]
+},
+{
+        "@id": "cbcl_q36_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "http://uri.interlex.org/base/cde_0364952",
+        "label": "cbcl36(Child Behavior Checklist (CBCL) 6-18)",
+        "@id": "cbcl_scr_syn_social_r",
+        "label": "Social CBCL Syndrome Scale (raw score)"}
+  ]
+},
+{
+        "@id": "cbcl_q41_p",
+        "isAbout": [
+    {
+        "@id":"http://uri.interlex.org/base/cde_0364903",
+        "label": "Child Behavior Checklist (CBCL) 6-18",
+        "@id": "cbcl_scr_syn_attention_r",
+        "label": "Attention CBCL Syndrome Scale (raw score)"}
+  ]
+}]
