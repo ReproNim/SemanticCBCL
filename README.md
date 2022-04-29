@@ -32,7 +32,7 @@ So, if you have appropriate authorization and permissions and have the actual ab
 convert the real data into the NIDM format. Just replace the *fake_Data/abcd_cbcl01_simdata.tsv* with the *real_data.tsv*.  Note, the data 
 files you get from NDA are tab-separated, but given the *.txt* extension. Before running the above command, move your rename (or copy, if you prefer) 
 the *real_data.txt* to *real_data.tsv*. The ABCD CBCL datafile is big (~12000 subjects, multiple sessions, depending on which release you have). So 
-the above command can take a long time on the read data (TODO: include time estimate here...).
+the above command can take a long time on the read data (~20 minutes on a MacBook Pro).
 
 
 ### More about PyNIDM
