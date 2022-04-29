@@ -17,6 +17,26 @@ Each 'item' from the questionaire already has makrup. For example, the markup fo
 
 ## The PyNIDM Way
 
+### Example
+You can try this toy example at home, using fake, abcd-like CBCL data (fake_Data/abcd_cbcl01_simdata.tsv) and a pre-specified set of annotations for the CBCL questions (jsons/test_annotations.json). To do this,
+1. Clone this repository, 
+2. 'cd' into it on your local machine
+3. run the following command:
+> csv2nidm -csv fake_Data/abcd_cbcl01_simdata.tsv -json_map jsons/test_annotations.json -no_concept -out test2.ttl
+
+This results in two files: 
+* test2.ttl                 # the resultant NIDM version of the original CBCL (fake) data
+* test2_annotations.json    # the json annotations of this NIDM file
+
+So, if you have appropriate authorization and permissions and have the actual abcd_cbcl01.txt file downloaded from the NDA, you can (at home!) 
+convert the real data into the NIDM format. Just replace the *fake_Data/abcd_cbcl01_simdata.tsv* with the *real_data.tsv*.  Note, the data 
+files you get from NDA are tab-separated, but given the *.txt* extension. Before running the above command, move your rename (or copy, if you prefer) 
+the *real_data.txt* to *real_data.tsv*. The ABCD CBCL datafile is big (~12000 subjects, multiple sessions, depending on which release you have). So 
+the above command can take a long time on the read data (TODO: include time estimate here...).
+
+
+### More about PyNIDM
+
 > usage: csv2nidm [-h] -csv CSV_FILE [-json_map JSON_MAP | -redcap REDCAP]
 >
 >                [-nidm NIDM_FILE] [-no_concepts] [-log LOGFILE]
